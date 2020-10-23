@@ -1,0 +1,41 @@
+﻿response,reply,profile_useful,thickness,template,star_rating,verified,helpful_votes,classify
+Y,Y,>=20%,thick,N,>=2,FALSE,>=50,nf
+Y,Y,>=20%,thick,N,<2,TRUE,>=50,nf
+Y,Y,>=20%,thick,Y,>=2,FALSE,>=50,nf
+Y,Y,>=20%,thick,Y,<2,TRUE,<50,nf
+Y,N,>=20%,thick,N,>=2,TRUE,<50,nf
+Y,N,>=20%,thick,N,<2,FALSE,>=50,nf
+Y,N,>=20%,thick,Y,>=2,FALSE,<50,nf
+Y,N,>=20%,thick,Y,<2,TRUE,>=50,nf
+N,N,>=20%,thick,N,>=2,FALSE,>=50,nf
+N,N,>=20%,thick,N,<2,TRUE,>=50,nf
+N,N,>=20%,thick,Y,>=2,FALSE,>=50,nf
+N,N,>=20%,thick,Y,<2,TRUE,<50,nf
+Y,N,>=20%,thick,N,>=2,FALSE,>=50,f
+N,N,<20%,thick,N,<2,FALSE,<50,nf
+N,N,<20%,thin,Y,<2,FALSE,<50,f
+N,N,<20%,thin,Y,>=2,TRUE,>=50,f
+N,N,<20%,thin,N,<2,TRUE,<50,f
+N,N,<20%,thin,N,>=2,TRUE,<50,f
+Y,Y,<20%,thin,N,>=2,FALSE,>=50,nf
+Y,Y,<20%,thin,N,<2,FALSE,<50,nf
+Y,Y,<20%,thin,Y,>=2,TRUE,>=50,nf
+Y,Y,<20%,thin,Y,<2,FALSE,>=50,nf
+Y,N,<20%,thin,Y,<2,TRUE,<50,f
+Y,N,<20%,thin,Y,>=2,TRUE,<50,f
+Y,N,<20%,thin,N,<2,FALSE,>=50,f
+Y,N,<20%,thin,N,>=2,TRUE,>=50,f
+N,N,<20%,thin,Y,<2,TRUE,>=50,f
+N,N,<20%,thin,Y,<2,FALSE,>=50,f
+N,N,>=20%,thin,N,>=2,FALSE,<50,f
+Y,Y,<20%,thin,N,>=2,TRUE,>=50,nf
+Y,Y,<20%,thin,Y,>=2,TRUE,<50,nf
+Y,Y,>=20%,thin,N,>=2,TRUE,>=50,nf
+Y,N,>=20%,thin,Y,<2,FALSE,<50,f
+N,N ,<20%,thin,N,>2,TRUE,<50,f
+N,N,<20%,thick,N,>2,FALSE,<50,f
+N,N,>=20%,thin,N,<2,TRUE,<50,f
+Y,N,<20%,thick,N,<2,FALSE,>=50,f
+Y,N ,<20%,thick,Y,<2,FALSE,<50,f
+Y ,N,<20%,thin,Y,<2,TRUE,>=50,f
+Y,N,>=20%,thin,N,>2,TRUE,<50,f
